@@ -4,8 +4,7 @@
   "description": "Gets the current git branch name of the running action for both pull_request and push triggers.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "package": "ncc build index.js -o dist"
   },
   "repository": {
     "type": "git",
@@ -18,9 +17,9 @@
   },
   "homepage": "https://github.com/jeffreyguenther/git-branch-name-action#readme",
   "dependencies": {
-    "@actions/core": "^1.2.7"
+    "@actions/core": "^1.4.0"
   },
   "devDependencies": {
-    "@types/node": "^14.14.41"
+    "@vercel/ncc": "^0.29.0"
   }
 }
