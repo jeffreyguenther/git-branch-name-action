@@ -6,6 +6,6 @@ jobs:
     steps:
       - name: Git branch name
         id: git-branch-name
-        uses: EthanSK/git-branch-name-action@v1
+        uses: jeffreyguenther/git-branch-name-action@v2
       - name: Echo the branch name
         run: echo "Branch name ${GIT_BRANCH_NAME}"
