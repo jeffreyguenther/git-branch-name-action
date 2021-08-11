@@ -1,6 +1,6 @@
 {
   "name": "git-branch-name-action",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Gets the current git branch name of the running action for both pull_request and push triggers.",
   "main": "index.js",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EthanSK/git-branch-name-action.git"
+    "url": "git+https://github.com/jeffreyguenther/git-branch-name-action.git"
   },
-  "author": "Ethan Sarif-Kattan",
+  "author": "Ethan Sarif-Kattan, Jeffrey Guenther",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EthanSK/git-branch-name-action/issues"
+    "url": "https://github.com/jeffreyguenther/git-branch-name-action/issues"
   },
-  "homepage": "https://github.com/EthanSK/git-branch-name-action#readme",
+  "homepage": "https://github.com/jeffreyguenther/git-branch-name-action#readme",
   "dependencies": {
     "@actions/core": "^1.2.7"
   },
