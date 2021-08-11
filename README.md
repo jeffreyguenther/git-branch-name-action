@@ -1,8 +1,6 @@
 # git-branch-name-action
 
 Gets the current git branch name of the running action for both pull_request and push triggers.
-
-UPDATE: Doesn't work if your branch name has '/' in the name...sorry.
 ## Usage
 
 ```
@@ -14,7 +12,7 @@ jobs:
     steps:
       - name: Git branch name
         id: git-branch-name
-        uses: EthanSK/git-branch-name-action@v1
+        uses: jeffreyguenther/git-branch-name-action@v2
       - name: Echo the branch name
         run: echo "Branch name ${GIT_BRANCH_NAME}"
 ```
